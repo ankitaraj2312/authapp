@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  padding: 10px 0;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #96c93d, #00b09b);
+  color: white;
+}
+
+.card {
+  background-color: #ffffffcc;
+}

@@ -1,0 +1,14 @@
+<%- include('partials/header', { title: 'Dashboard' }) %>
+
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+  <div class="card shadow-lg p-5 text-center" style="width: 450px; border-radius: 15px;">
+    <h3 class="text-success mb-3">Welcome, <%= user.name %>!</h3>
+    <p><strong>Email:</strong> <%= user.email %></p>
+    <% if (user.phone) { %>
+      <p><strong>Phone:</strong> <%= user.phone %></p>
+    <% } %>
+    <a href="/logout" class="btn btn-danger mt-3 fw-bold">Logout</a>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
